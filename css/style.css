@@ -91,7 +91,7 @@ header video {
 
 #myVidText .content h1:nth-child(1){
   color: transparent;
-  -webkit-text-stroke: 2px #E1E7E4;
+  -webkit-text-stroke: 2px #76d4ff; 
 }
 
 #myVidText .content h1:nth-child(2){
