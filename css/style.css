@@ -189,3 +189,22 @@ header .overlay {
 #popularYachts .col-md-12 h2{
   color: #393e4b;
 }
+
+#hatteras61Sec .project-text{
+  padding: 25px;
+  font-family: 'Glory', sans-serif;
+  font-size: 17px;  
+}
+
+#hatteras61Sec .project-text h2{
+  color: #393e4b!important;
+  font-family: 'Playfair Display', serif;
+}
+
+#hatteras61Sec .project-text hr{
+  background-color: #393e4b!important;
+}
+
+#hatteras61Sec .col-md-6{
+  background-color: #d9f7ff;
+}
