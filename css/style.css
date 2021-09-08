@@ -17,7 +17,7 @@
 */
 
 #mainNav{
-  background-color: rgb(220, 220, 220);
+  background-color: black;
   padding: 0px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover{
-  color:  rgb(0, 157, 255); 
+  color:  #03a9f4;
 }
 
 #mainNav .navbar-toggler{
@@ -46,7 +46,7 @@
   font-weight: 500;
   padding: 20px 20px;
   letter-spacing: 1px;
-  color: black;  
+  color: white; 
   transition: all .5s;
 }
 
