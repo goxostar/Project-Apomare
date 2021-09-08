@@ -176,6 +176,11 @@ header .overlay {
   background-color: #f6f7f8;
 }
 
+#popularYachts{
+  background-color: #f6f7f8;
+  padding: 20px;
+}
+
 #popularYachts .col-md-12 hr{
   background-color: gray;
   width: 50px;  
