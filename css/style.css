@@ -1,5 +1,5 @@
 /*
-# Navbar
+# SETTINGS
 */
 
 @font-face {
@@ -11,6 +11,10 @@
   font-weight: 500;
   font-style: italic;
 }
+
+/*
+# Navbar
+*/
 
 #mainNav{
   background-color: rgb(220, 220, 220);
@@ -148,28 +152,6 @@ header .overlay {
   filter: brightness(75%);  
 }
 
-@media (max-width: 768px) {
-  .page-image h1 {
-    transform: translateY(10vh); 
-  }
-
-  #ourBrands .col-md-4{
-    text-align: center;
-    margin-left: 10px;
-    margin-top: 30px;
-    padding: 10px;
-  }
-
-  #ourBrands .col-md-4 img{
-    width: 200px;
-    height: 50px;
-  }
-  #ourBrands .col-md-4 .imgAnvera{
-    width: 200px;
-    height: 20px;    
-  }
-}
-
 #ourBrands{
   margin-left: auto;  
   padding: 50px;
@@ -207,4 +189,82 @@ header .overlay {
 
 #hatteras61Sec .col-md-6{
   background-color: #d9f7ff;
+}
+
+.page-image-askusimg{
+  height: 30vh;
+  background: linear-gradient(rgba(0, 54, 90, 0.4),rgba(0, 54, 90, 0.4)),url("../img/askusBG.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.page-image-askusimg h1{
+  transform: translateY(6vh);   
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.page-image-askusimg p{
+  transform: translateY(6vh);   
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.btn-main{
+  text-transform: uppercase;
+  transform: translateY(7vh);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;  
+  padding: 8px 28px;
+  border-radius: 50px;  
+  border: 2px solid rgb(1, 225, 255);
+  color: #fff;
+  transition: all .5s;   
+}
+
+.btn-main:hover{
+  background: rgb(1, 225, 255);
+  border: 2px solid rgb(1, 225, 255);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+
+  .page-image h1 {
+    transform: translateY(8vh);     
+  }
+
+  #ourBrands .col-md-4{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  #ourBrands .col-md-4 img{
+    width: 200px;
+    height: 50px;
+  }
+
+  #ourBrands .col-md-4 .imgAnvera{
+    width: 200px;
+    height: 20px;    
+  }  
+  
+  .page-image-askusimg h1{
+    transform: translateY(5vh); 
+  }
+
+  .page-image-askusimg p{
+    transform: translateY(5vh); 
+  }
+
+  .btn-main{
+    transform: translateY(5vh); 
+  }
+
 }
