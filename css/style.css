@@ -155,8 +155,8 @@ header .overlay {
 
   #ourBrands .col-md-4{
     text-align: center;
-    margin-left: 20px;
-    margin-top: 40px;
+    margin-left: 10px;
+    margin-top: 30px;
     padding: 10px;
   }
 
@@ -164,15 +164,17 @@ header .overlay {
     width: 200px;
     height: 50px;
   }
+  #ourBrands .col-md-4 .imgAnvera{
+    width: 200px;
+    height: 20px;    
+  }
 }
 
 #ourBrands{
-  margin-left: auto;
-  margin-top: 10px;
+  margin-left: auto;  
   padding: 50px;
   background-color: #f6f7f8;
 }
-
 
 #popularYachts .col-md-12 hr{
   background-color: gray;
