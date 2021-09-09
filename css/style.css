@@ -25,10 +25,6 @@
   text-align: right;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link:hover{
-  color:  #03a9f4;
-}
-
 #mainNav .navbar-toggler{
   font-size: 12px;
   margin-right: 5px;
@@ -53,6 +49,32 @@
 #navbarResponsive {
   transition: height 1.5s ease;
 }
+
+.nav-item #hrPassive{
+  width: 0%;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: white;
+  transition: .5s all;
+}
+
+.nav-link:hover>#hrPassive{
+  width: 100%;
+}
+
+.nav-item #hrActive{
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.nav-item i{
+  margin-left: 8px;
+  transform: translateY(-20%);
+}
+
 
 /*
 # Home Video Section
@@ -99,6 +121,7 @@ header video {
 
 #myVidText .content1 img{
   position: absolute;  
+  filter: opacity(50%);
   transform: translate(-80%, -110%);
   width: 260px;
   height: 62px;  
@@ -106,7 +129,8 @@ header video {
 }
 
 #myVidText .content h1{
-  position: absolute;  
+  position: absolute; 
+  filter: opacity(50%); 
   transform: translate(-50%,-50%);
   font-size: 6em;
 }
@@ -168,7 +192,7 @@ header .overlay {
 
 #popularYachts{
   background-color: #f6f7f8;
-  padding: 20px;
+  padding: 30px;
 }
 
 #popularYachts .col-md-12 hr{
@@ -241,6 +265,18 @@ header .overlay {
 }
 
 @media (max-width: 768px) {
+
+  .nav-item #hrActive{
+    width: 13%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: white;
+  }
+
+  .nav-link:hover>#hrPassive{
+    width: 0%;
+  }
 
   .page-image h1 {
     transform: translateY(8vh);     

@@ -35,22 +35,36 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link">Home<hr id="hrActive"></a> 
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Used Yachts<i class="fas fa-sort-down"></i></i><hr id="hrPassive">
+                </a>                
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Cranchi Yachts</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Other Yachts</a>                  
+                </div>
+              </li>              
+              <li class="nav-item">
+                <a href="#" class="nav-link">Hot Deals<hr id="hrPassive"></a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Used Yachts</a>
+                <a href="#" class="nav-link">About<hr id="hrPassive"></a>
               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Gallery<i class="fas fa-sort-down"></i></i><hr id="hrPassive">
+                </a>                
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Video Gallery</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Photo Gallery</a>                  
+                </div>
+              </li>  
               <li class="nav-item">
-                <a href="#" class="nav-link">Hot Deals</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="#" class="nav-link">Contact<hr id="hrPassive"></a>
               </li>
             </ul>
           </div>
@@ -164,31 +178,70 @@
           </div>
         </div>
         <div class="row">
-          <div class="card-columns">
-            <div class="card">
-              <img class="card-img-top img-fluid" src="img/hatteras-43.jpg" alt="">
-              <div class="card-body">
-                  <h4 class="card-title">Hatteras 43 Triple Cabin</h4>
-                  <p class="card-text">Price : 2,303,990 TL<br>Year : 1969</p>                  
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top img-fluid" src="img/holland-clipper.jpg" alt="">
-              <div class="card-body">
-                  <h4 class="card-title">Holland Clipper Sailor</h4>
-                  <p class="card-text">Price : 9,149,823 TL<br>Year : 1995</p> 
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top img-fluid" src="img/Proline-33.png" alt="">
-              <div class="card-body">
-                  <h4 class="card-title">Proline 33 Express</h4>
-                  <p class="card-text">Price : 1,021,580 TL<br>Year : 2001</p> 
-              </div>
-            </div>
+          <div class="col-6">
+              <h3 class="mb-3"></h3>
           </div>
-        </div>
-      </div>
+          <div class="col-6 text-right">
+              <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left"></i>
+              </a>
+              <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right"></i>
+              </a>
+          </div>
+          <div class="col-12">
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="row">
+
+                              <div class="col-md-4 mb-3">
+                                  <div class="card">
+                                      <img class="img-fluid" alt="" src="img/hatteras-43.jpg">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Hatteras 43 Triple Cabin</h4>
+                                        <p class="card-text">Price : 2,303,990 TL<br>Year : 1969</p> 
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                <div class="card">
+                                  <img class="card-img-top img-fluid" src="img/holland-clipper.jpg" alt="">
+                                  <div class="card-body">
+                                  <h4 class="card-title">Holland Clipper Sailor</h4>
+                                  <p class="card-text">Price : 9,149,823 TL<br>Year : 1995</p> 
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                <div class="card">
+                                  <img class="card-img-top img-fluid" src="img/Proline-33.png" alt="">
+                                  <div class="card-body">
+                                      <h4 class="card-title">Proline 33 Express</h4>
+                                      <p class="card-text">Price : 1,021,580 TL<br>Year : 2001</p> 
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>                      
+                      <div class="carousel-item">
+                          <div class="row">
+                              <div class="col-md-4 mb-3">
+                                <div class="card">
+                                  <img class="card-img-top img-fluid" src="img/Hatteras61.jpg" alt="">
+                                  <div class="card-body">
+                                      <h4 class="card-title">Hatteras - 61</h4>
+                                      <p class="card-text">Price : 3,173,420 TL<br>Year : 1982</p> 
+                                  </div>
+                                </div>
+                              </div>                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>          
     </section> 
 
     <section id="hatteras61Sec" class="section-box">
@@ -214,12 +267,95 @@
       </div>
     </section>
 
-    <section class="page-img page-image-askusimg section-box mb-5 text-center align-self-center justify-content-center">
+    <section class="page-img page-image-askusimg section-box text-center align-self-center justify-content-center">
       <h1 id="askusheader" class="page-title">Ask Us</h1>
       <p>You can find everything about yachts here.<br>Do not hesitate to contact if you have any questions.</p>
       <p></p>
       <a href="#askusheader" class="btn btn-main">Detail</a>
     </section> 
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-center p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block text-center">
+      <span>Get connected with us on social networks: </span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div class="ml-2">
+      <a href="https://www.facebook.com/APOMAREYACHT/" class="me-4 text-reset ml-2">
+        <i class="fab fa-facebook-f"></i>
+      </a>      
+      <a href="https://www.instagram.com/apomare_cranchi/" class="me-4 text-reset ml-2">
+        <i class="fab fa-instagram"></i>
+      </a>      
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i> Apomare Yachts
+          </h6>
+          <p>
+            Turkey Distributor of Cranchi, Dominator and Anvera Yachts.
+          </p>
+        </div>
+        <!-- Grid column -->    
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Address
+          </h6>
+          <p>
+            <i class="fas fa-home me-3"></i> Muhtar Hüseyin Sokak No:13 Ulus, İstanbul
+          </p>
+        </div>
+        <!-- Grid column -->   
+       
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>          
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@apomare.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +90 (532)-211-50 05</p>
+          <p><i class="fas fa-print me-3"></i> +90 (532)-211-50 05</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  <hr>
+  <!-- Copyright -->
+  <div class="text-center p-4">    
+    <p style="font-style: italic; color: rgb(185, 185, 185);">Copyright © 2021 Apomare · All rights reserved · Powered by Portakal Software</p>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
     
      
        
