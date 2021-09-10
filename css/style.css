@@ -201,6 +201,10 @@ header .overlay {
   background-color: #f6f7f8;
 }
 
+#ourBrands .row{
+  margin-left: 30px;
+}
+
 #popularYachts{
   background-color: #f6f7f8;
   padding: 30px;
@@ -324,6 +328,10 @@ header .overlay {
   #ourBrands .col-md-4 img{
     width: 200px;
     height: 50px;
+  }
+
+  #ourBrands .row{
+    transform: translateX(-10%);
   }
 
   #ourBrands .col-md-4 .imgDominator{      
