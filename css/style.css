@@ -75,6 +75,16 @@
   transform: translateY(-20%);
 }
 
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+} 
+
 
 /*
 # Home Video Section
@@ -202,6 +212,10 @@ header .overlay {
 
 #popularYachts .col-md-12 h2{
   color: #393e4b;
+}
+
+#popularYachts .card{
+  min-height: 400px;
 }
 
 #hatteras61Sec .project-text{
