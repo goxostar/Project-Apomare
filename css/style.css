@@ -79,6 +79,15 @@
   display: block;
 }
 
+.navbar-nav > li > .dropdown-menu { 
+  background-color: #cbeaff;
+}
+
+.navbar-nav > li > .dropdown-menu:hover{ 
+  background-color: #f0f9ff;
+  transition: .5s;
+}
+
 /* rotate caret on hover */
 .dropdown-menu > li > a:hover:after {
   text-decoration: underline;
