@@ -251,6 +251,22 @@ header .overlay {
   background-color: #d9f7ff;
 }
 
+
+.page-image-pagetitle{
+  height: 25vh;
+  background: linear-gradient(rgba(0, 153, 255, 0.6),rgba(0, 153, 255, 0.6)),url("../img/pagetitleimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.page-image-pagetitle h1{  
+  font-family: 'Playfair Display', serif;
+  transform: translateY(9vh);
+  color: white;
+  text-align: center;  
+}
+
 .page-image-askusimg{
   height: 30vh;
   background: linear-gradient(rgba(0, 54, 90, 0.4),rgba(0, 54, 90, 0.4)),url("../img/askusBG.jpg");
@@ -292,6 +308,8 @@ header .overlay {
   color: #fff;
 }
 
+
+
 @media (max-width: 768px) {
 
   .nav-item #hrActive{
@@ -301,6 +319,7 @@ header .overlay {
     margin-bottom: 0;
     background-color: white;
   }
+  
 
   .nav-link:hover>#hrPassive{
     width: 0%;
