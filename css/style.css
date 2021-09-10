@@ -83,9 +83,9 @@
   background-color: #cbeaff;
 }
 
-.navbar-nav > li > .dropdown-menu:hover{ 
-  background-color: #f0f9ff;
-  transition: .5s;
+.dropdown-menu > li > a:hover {
+  background-image: none;
+  background-color: rgb(215, 241, 255);
 }
 
 /* rotate caret on hover */

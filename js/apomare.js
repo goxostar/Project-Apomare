@@ -6,7 +6,7 @@ $('.owl-carousel').owlCarousel({
   autoplayHoverPause:true,
   responsiveClass:true,
   responsive:{        
-    375:{
+    300:{
         items:1,
         nav:false,  
         loop:false
