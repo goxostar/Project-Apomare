@@ -94,6 +94,11 @@
   transform: rotate(-90deg);
 } 
 
+.dropdown-menu{
+  position: absolute;
+  margin-top: 0;
+}
+
 
 /*
 # Home Video Section
