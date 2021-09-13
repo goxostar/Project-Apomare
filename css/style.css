@@ -396,6 +396,15 @@ header .overlay {
   margin-bottom: 100px;
 }
 
+#productYachts .col-md-4{
+  background-color: #a2b3bf;
+}
+
+#productYachts .carousel-indicators > li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;  
+}
 
 @media (max-width: 768px) {
 
@@ -477,5 +486,5 @@ header .overlay {
   .btn-contact{    
     transform: translate(-50%, 0%); 
   } 
-
+  
 }
