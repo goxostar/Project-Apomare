@@ -335,6 +335,57 @@ header .overlay {
   color: #fff;
 }
 
+/*
+# Contact Section
+*/
+
+.section-top h2{
+  color: rgb(0, 173, 204);
+}
+
+.section-top hr{
+  background-color: rgb(0, 173, 204);
+  width: 50%;
+}
+
+.form-group{
+  margin-bottom: 25px;
+}
+
+.form-group input,
+.form-group textarea{
+  padding: 20px;
+}
+
+.form-group input.form-control{
+  height: auto;
+}
+
+.form-group textarea.form-control{
+  height: 248px;
+}
+
+.form-control:focus{
+  border-color: rgb(46, 224, 255);
+  box-shadow: none;
+}
+
+.btn-contact{
+  position: absolute;
+  transform: translate(-50%, 0%);  
+  background-color: rgb(46, 224, 255);
+  color: #fff;
+}
+
+.btn-contact:hover{
+  background-color: #fff;
+  color: rgb(46, 224, 255);
+}
+
+#contact{
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
 
 
 @media (max-width: 768px) {
@@ -345,8 +396,7 @@ header .overlay {
     margin-top: 0;
     margin-bottom: 0;
     background-color: white;
-  }
-  
+  }  
 
   .nav-link:hover>#hrPassive{
     width: 0%;
@@ -410,5 +460,13 @@ header .overlay {
   .btn-main{
     transform: translateY(5vh); 
   }
+
+}
+
+@media (max-width: 375px){
+
+  .btn-contact{    
+    transform: translate(-50%, 0%); 
+  } 
 
 }
