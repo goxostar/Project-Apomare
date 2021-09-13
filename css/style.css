@@ -406,6 +406,47 @@ header .overlay {
   border-radius: 100%;  
 }
 
+#productYachts .product-text h2{
+  margin-top: 75px;
+  color: rgb(238, 255, 254);
+  font-family: 'Playfair Display', serif;
+}
+
+#productYachts .product-text hr{
+  background-color: rgb(238, 255, 254);
+  width: 75%;
+  height: 1px;
+}
+
+#productYachts .btn-hotdeals{
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 50px;
+}
+
+#productYachts .product-text p{  
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 5px;  
+  font-family: 'Open Sans', sans-serif;
+}
+
+#productYachts .needMargin{
+  margin-top: 75px;
+}
+
+#productYachts .product-text i{
+  color: red;
+  font-size: 30px;
+}
+
+#productYachts .container-fluid{
+  max-width:1650px;
+}
+
+
 @media (max-width: 768px) {
 
   .nav-item #hrActive{
@@ -486,5 +527,22 @@ header .overlay {
   .btn-contact{    
     transform: translate(-50%, 0%); 
   } 
-  
+
+  #productYachts .carousel-indicators > li{
+    width: 0px;
+    height: 0px;    
+  }
+
+  #productYachts .col-md-4{
+    margin-top: 5px; 
+  }
+
+  #productYachts .needMargin{
+    margin-top: 0px;
+  }
+
+  #productYachts .product-text h2{
+    margin-top: 0px;    
+  }
+
 }
