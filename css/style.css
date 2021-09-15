@@ -498,6 +498,33 @@ header .overlay {
   margin-bottom: 100px;
 }
 
+#photogalleryMain{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#photogalleryMain img{
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 8px rgba(0, 81, 255, 0.3);     
+}
+
+#photogalleryMain .albumTitle{
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  padding: 10px;
+  transform: translate(0px , 110px);
+  display: block;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+  transition: .5s all;
+}
+
+#photogalleryMain .col-md-3:hover>.albumTitle{
+   opacity: 1;
+}
+
+
 
 @media (max-width: 768px) {
 
