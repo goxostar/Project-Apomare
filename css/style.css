@@ -550,6 +550,18 @@ header .overlay {
   height: 185vh; 
 }
 
+/*
+# Used Other Yachts Section
+*/
+
+#usedotheryachts{
+  padding: 10px; 
+  background-image: url("../img/usedyachtsBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 255vh; 
+}
+
 @media (max-width: 768px) {
 
   .nav-item #hrActive{
