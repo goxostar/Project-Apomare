@@ -455,6 +455,11 @@ header .overlay {
   margin: 0 0 15px;   
 }
 
+#photogalleryMain{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .photo-link{
   box-shadow: 0 0 10px rgba(0, 89, 255, 0.8);
   position: relative;
@@ -498,11 +503,6 @@ header .overlay {
   margin-bottom: 100px;
 }
 
-#photogalleryMain{
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
 #photogalleryMain img{
   border-radius: 1px;
   box-shadow: 0px 0px 0px 8px rgba(0, 81, 255, 0.3);     
@@ -524,7 +524,10 @@ header .overlay {
    opacity: 1;
 }
 
-
+#videogalleryMain .container-fluid{
+  background-color: rgb(206, 245, 255);
+  padding: 75px;  
+}
 
 @media (max-width: 768px) {
 

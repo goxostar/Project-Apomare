@@ -21,6 +21,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
+  <!-- Lightbox CSS -->
+  <link rel="stylesheet" href="css/lightbox.css">
 
   <!-- Owl Crousel -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -77,7 +79,7 @@
             <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
               Gallery<i class="fas fa-sort-down"></i></i>
-              <hr id="hrPassive">
+              <hr id="hrActive">
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="video-gallery.html">Video Gallery</a></li>
@@ -86,7 +88,7 @@
           </li>
           <li class="nav-item">
             <a href="contact.html" class="nav-link">Contact
-              <hr id="hrActive"></a>
+              <hr id="hrPassive"></a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">TR</a>
@@ -97,53 +99,36 @@
   </nav>
 
   <section class="page-img page-image-pagetitle section-box text-center align-self-center justify-content-center">
-    <h1 id="contactheader" class="page-title">CONTACT</h1>
+    <h1 id="videogalleryheader" class="page-title">VIDEO GALLERY</h1>
   </section>
 
-  <section id="contact" class="section-box">
-    <div class="container">
+  <section id="videogalleryMain">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-          <div class="section-top">
-            <h2>CONTACT WITH US</h2>
-            <hr>
-            <p>If you have any questions, do not hesitate to write us a message. You can send us a message below.</p>
-          </div>
+        <div class="col-md-3 offset-md-1">
+          <iframe width="450" height="250" src="https://www.youtube.com/embed/HI96B7QHMSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
+        </div>
+        <div class="col-md-3 offset-md-3">
+          <iframe width="450" height="250" src="https://www.youtube.com/embed/6d-gxjPIAgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <form id="contactForm" name="sentMessage">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Your Name *">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Your Email *">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="subject" type="text" placeholder="Subject *">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Your Message *"></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="col-md-12 text-center">
-                <button id="sendMessageButton" class="btn btn-main btn-contact text-uppercase" type="submit">Send
-                  Message</button>
-              </div>
-            </div>
-          </form>
+      <div class="row mt-3">
+        <div class="col-md-3 offset-md-1">
+          <iframe width="450" height="250" src="https://www.youtube.com/embed/B55cAezseTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
+        </div>
+        <div class="col-md-3 offset-md-3">
+          <iframe width="450" height="250" src="https://www.youtube.com/embed/qnv7bs7i0N8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   
         </div>
       </div>
     </div>
+  </section>
+
+  
+  <section class="page-img page-image-askusimg section-box text-center align-self-center justify-content-center">
+    <h1 id="askusheader" class="page-title">Ask Us</h1>
+    <p>You can find everything about yachts here.<br>Do not hesitate to contact if you have any questions.</p>
+    <p></p>
+    <a href="contact.html" class="btn btn-main">Detail</a>
   </section>
 
   <!-- Footer -->
@@ -245,6 +230,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/lightbox-plus-jquery.js"></script>
   <script src="js/apomare.js"></script>
 
 </body>
