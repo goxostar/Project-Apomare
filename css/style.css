@@ -562,6 +562,18 @@ header .overlay {
   height: 255vh; 
 }
 
+/*
+# HOT DEALS
+*/
+
+#hotdeals{
+  padding: 10px; 
+  background-image: url("../img/usedyachtsBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 130vh; 
+}
+
 @media (max-width: 768px) {
 
   .nav-item #hrActive{
