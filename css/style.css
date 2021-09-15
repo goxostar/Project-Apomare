@@ -529,6 +529,27 @@ header .overlay {
   padding: 75px;  
 }
 
+/*
+# Used Cranchi Yachts Section
+*/
+
+#cranchiusedlogo{
+  background-color: #f6f7f8;
+}
+
+#cranchiusedlogo .col-md-12 img{
+  margin-top: 15px;
+  margin-bottom: 30px;  
+}
+
+#usedcranchiyachts{
+  padding: 10px; 
+  background-image: url("../img/usedyachtsBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 185vh; 
+}
+
 @media (max-width: 768px) {
 
   .nav-item #hrActive{

@@ -21,8 +21,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-  <!-- Lightbox CSS -->
-  <link rel="stylesheet" href="css/lightbox.css">
 
   <!-- Owl Crousel -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -73,13 +71,13 @@
           </li>
           <li class="nav-item">
             <a href="about.html" class="nav-link">About
-              <hr id="hrPassive"></a>
+              <hr id="hrActive"></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
               Gallery<i class="fas fa-sort-down"></i></i>
-              <hr id="hrActive">
+              <hr id="hrPassive">
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="video-gallery.html">Video Gallery</a></li>
@@ -99,90 +97,232 @@
   </nav>
 
   <section class="page-img page-image-pagetitle section-box text-center align-self-center justify-content-center">
-    <h1 id="photogalleryheader" class="page-title">2017</h1>
+    <h1 id="usedcranchiheader" class="page-title">USED CRANCHI YACHTS</h1>
   </section>
 
-  <section id="photo" class="section-box">
+  <section id="cranchiusedlogo">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-          <div class="section-top">
-            <h2>CNR AVRASYA BOAT SHOW 2017</h2>
-            <hr>
+        <div class="col-md-12 text-center justify-content-center align-self-center">
+          <img src="img/Cranchi_Logo_Positivo.png" alt="" width="250" height="83">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="usedcranchiyachts">   
+    <div class="container">
+      <form class="mb-3"> 
+        <div class="form-row align-items-center justify-content-center">
+          <div class="col-auto">
+            <label class="form-check-label" for="autoSizingCheck">
+              Y.No
+            </label>
+          </div>
+          <div class="col-auto">            
+            <input type="text" class="form-control mb-2" id="yachtNo" placeholder="Yacht No">
+          </div>          
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-2">Search Yacht No</button>
           </div>
         </div>
+        <div class="form-row align-items-center justify-content-center">
+          <div class="col-auto">
+            <label class="form-check-label" for="autoSizingCheck">
+              Brand
+            </label>
+          </div>
+          <div class="col-auto">
+            <select class="custom-select" required>
+              <option value="0">Cranchi</option>              
+            </select>
+          </div>
+          <div class="col-auto">
+            <label class="form-check-label" for="autoSizingCheck">
+              Type
+            </label>
+          </div>
+          <div class="col-auto">
+            <select class="custom-select" >
+              <option value="">Please Select Type</option>  
+              <option value="1">Motor Yacht</option> 
+              <option value="2">Motor Sailor</option> 
+              <option value="3">Rib Boat</option>             
+            </select>
+          </div>
+        </div>
+        <div class="form-row align-items-center justify-content-center mt-2">
+          <div class="col-auto">
+            <label class="form-check-label mr-3" for="autoSizingCheck">
+              Year
+            </label>
+          </div>
+          <div class="col-auto">
+            <input type="text" class="form-control mb-2" id="yearMin" placeholder="Min Year">
+          </div>          
+          <div class="col-auto">
+            <input type="text" class="form-control mb-2" id="yearMax" placeholder="Max Year">
+          </div>
+        </div>
+        <div class="form-row align-items-center justify-content-center mt-2">
+          <div class="col-auto">
+            <label class="form-check-label" for="autoSizingCheck">
+              Length
+            </label>
+          </div>
+          <div class="col-auto">
+            <input type="text" class="form-control mb-2" id="lengthMin" placeholder="Min Length">
+          </div>          
+          <div class="col-auto">
+            <input type="text" class="form-control mb-2" id="lengthMax" placeholder="Max Length">
+          </div>
+        </div>
+        <div class="form-row align-items-center justify-content-center mt-2">
+          <div class="col-auto">
+            <label class="form-check-label mr-3" for="autoSizingCheck">
+              Price
+            </label>
+          </div>
+          <div class="col-auto">
+            <input type="text" class="form-control mb-2" id="priceMin" placeholder="Min Price">
+          </div>          
+          <div class="col-auto">
+            <input type="text" class="form-control mb-2" id="priceMax" placeholder="Max Price">
+          </div>
+        </div>
+        <div class="form-row align-items-center justify-content-center mt-2">
+          <div class="col-auto">
+            <label class="form-check-label" for="autoSizingCheck">
+              Length
+            </label>
+          </div>
+          <div class="col-auto">
+            <input type="text" class="form-control mb-2" id="lengthMin" placeholder="Min Length">
+          </div>          
+          <div class="col-auto">
+            <input type="text" class="form-control mb-2" id="lengthMax" placeholder="Max Length">
+          </div>
+        </div>
+        <div class="form-row align-items-center justify-content-center mt-2">
+          <div class="col-auto">
+            <button type="submit" class="btn btn-success">Search</button>
+          </div>          
+        </div>
+      </form>
+      <div class="row">
+        <div class="col-md-4"> 
+          <div class="card text-center">
+            <div class="card-header">
+              Cranchi - E52F
+            </div>
+            <div class="card-body">
+              <img src="img/usedyachts-cranchi/Cranchi-E52F.jpg" alt="" height="220" width="300">
+            </div>
+            <div class="card-footer text-muted">
+              <p style="text-align:left;">
+                Year : 2017
+                <span style="float:right;">
+                  Price : 8,481,578 TL
+                </span>
+              </p>                           
+            </div>
+          </div>                              
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header">
+              Cranchi - E52F
+            </div>
+            <div class="card-body">
+              <img src="img/usedyachts-cranchi/Cranchi-E52F.jpg" alt="" height="220" width="300">
+            </div>
+            <div class="card-footer text-muted">
+              <p style="text-align:left;">
+                Year : 2017
+                <span style="float:right;">
+                  Price : 8,481,578 TL
+                </span>
+              </p>                           
+            </div>
+          </div>           
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header">
+              Cranchi - E52F
+            </div>
+            <div class="card-body">
+              <img src="img/usedyachts-cranchi/Cranchi-E52F.jpg" alt="" height="220" width="300">
+            </div>
+            <div class="card-footer text-muted">
+              <p style="text-align:left;">
+                Year : 2017
+                <span style="float:right;">
+                  Price : 8,481,578 TL
+                </span>
+              </p>                           
+            </div>
+          </div>           
+        </div>
       </div>
       <div class="row mt-5">
-        <div class="col-md-4 offset-md-2 text-center photo-item">
-          <a href="uploads/photo-gallery/2017/photo1-full.jpg" class="photo-link" data-lightbox="web-design"
-            data-title="Boat Show 2017">
-            <div class="photo-hover">
-              <div class="photo-hover-content">
-                <i class="fas fa-search fa-3x"></i>
-              </div>
+        <div class="col-md-4"> 
+          <div class="card text-center">
+            <div class="card-header">
+              Cranchi - E52F
             </div>
-            <img src="uploads/photo-gallery/2017/photo1-thumbnail.jpg" class="img-fluid">
-          </a>
+            <div class="card-body">
+              <img src="img/usedyachts-cranchi/Cranchi-E52F.jpg" alt="" height="220" width="300">
+            </div>
+            <div class="card-footer text-muted">
+              <p style="text-align:left;">
+                Year : 2017
+                <span style="float:right;">
+                  Price : 8,481,578 TL
+                </span>
+              </p>                           
+            </div>
+          </div>                              
         </div>
-        <div class="col-md-4 offset-md-2 text-center photo-item">
-          <a href="uploads/photo-gallery/2017/photo2-full.jpg" class="photo-link" data-lightbox="web-design"
-            data-title="Boat Show 2017">
-            <div class="photo-hover">
-              <div class="photo-hover-content">
-                <i class="fas fa-search fa-3x"></i>
-              </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header">
+              Cranchi - E52F
             </div>
-            <img src="uploads/photo-gallery/2017/photo2-thumbnail.jpg" class="img-fluid">
-          </a>
+            <div class="card-body">
+              <img src="img/usedyachts-cranchi/Cranchi-E52F.jpg" alt="" height="220" width="300">
+            </div>
+            <div class="card-footer text-muted">
+              <p style="text-align:left;">
+                Year : 2017
+                <span style="float:right;">
+                  Price : 8,481,578 TL
+                </span>
+              </p>                           
+            </div>
+          </div>           
         </div>
-        <div class="col-md-4 offset-md-2 text-center photo-item">
-          <a href="uploads/photo-gallery/2017/photo3-full.jpg" class="photo-link" data-lightbox="web-design"
-            data-title="Boat Show 2017">
-            <div class="photo-hover">
-              <div class="photo-hover-content">
-                <i class="fas fa-search fa-3x"></i>
-              </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header">
+              Cranchi - E52F
             </div>
-            <img src="uploads/photo-gallery/2017/photo3-thumbnail.jpg" class="img-fluid">
-          </a>
+            <div class="card-body">
+              <img src="img/usedyachts-cranchi/Cranchi-E52F.jpg" alt="" height="220" width="300">
+            </div>
+            <div class="card-footer text-muted">
+              <p style="text-align:left;">
+                Year : 2017
+                <span style="float:right;">
+                  Price : 8,481,578 TL
+                </span>
+              </p>                           
+            </div>
+          </div>           
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-md-4 offset-md-2 text-center photo-item">
-          <a href="uploads/photo-gallery/2017/photo4-full.jpg" class="photo-link" data-lightbox="web-design"
-            data-title="Boat Show 2017">
-            <div class="photo-hover">
-              <div class="photo-hover-content">
-                <i class="fas fa-search fa-3x"></i>
-              </div>
-            </div>
-            <img src="uploads/photo-gallery/2017/photo4-thumbnail.jpg" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-md-4 offset-md-2 text-center photo-item">
-          <a href="uploads/photo-gallery/2017/photo5-full.jpg" class="photo-link" data-lightbox="web-design"
-            data-title="Boat Show 2017">
-            <div class="photo-hover">
-              <div class="photo-hover-content">
-                <i class="fas fa-search fa-3x"></i>
-              </div>
-            </div>
-            <img src="uploads/photo-gallery/2017/photo5-thumbnail.jpg" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-md-4 offset-md-2 text-center photo-item">
-          <a href="uploads/photo-gallery/2017/photo6-full.jpg" class="photo-link" data-lightbox="web-design"
-            data-title="Boat Show 2017">
-            <div class="photo-hover">
-              <div class="photo-hover-content">
-                <i class="fas fa-search fa-3x"></i>
-              </div>
-            </div>
-            <img src="uploads/photo-gallery/2017/photo6-thumbnail.jpg" class="img-fluid">
-          </a>
-        </div>
-      </div>      
-  </section>  
+    </div>   
+  </section>
 
   
   <section class="page-img page-image-askusimg section-box text-center align-self-center justify-content-center">
@@ -291,7 +431,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="js/lightbox-plus-jquery.js"></script>
   <script src="js/apomare.js"></script>
 
 </body>
