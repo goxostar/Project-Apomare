@@ -676,4 +676,25 @@ header .overlay {
     margin-top: 0px;    
   }
 
+  #videogalleryMain .container-fluid{    
+    padding: 0px;  
+  }
+
+  #videogalleryMain .iframe{    
+    width: 100;
+    height: 250;
+  }
+
+  #photogalleryMain .needcolMargin{
+    margin-top: 50px;  
+  }
+
+  #photogalleryMain .needcolMargin{
+    margin-top: 50px;      
+  }
+
+  #photogalleryMain .needcolLeftMargin{    
+    margin-left: 20px;
+  }
+
 }
