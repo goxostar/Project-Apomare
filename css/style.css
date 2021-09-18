@@ -542,12 +542,9 @@ header .overlay {
   margin-bottom: 30px;  
 }
 
-#usedcranchiyachts{
-  padding: 10px; 
-  background-image: url("../img/usedyachtsBG.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; 
-  height: 185vh; 
+#usedcranchiyachts{  
+  padding: 10px;
+  background-color: rgb(178, 220, 221);
 }
 
 /*
@@ -555,11 +552,8 @@ header .overlay {
 */
 
 #usedotheryachts{
-  padding: 10px; 
-  background-image: url("../img/usedyachtsBG.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; 
-  height: 255vh; 
+  padding: 10px;
+  background-color: rgb(178, 220, 221);
 }
 
 /*
@@ -567,11 +561,8 @@ header .overlay {
 */
 
 #hotdeals{
-  padding: 10px; 
-  background-image: url("../img/usedyachtsBG.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; 
-  height: 130vh; 
+  padding: 10px;
+  background-color: rgb(178, 220, 221);
 }
 
 @media (max-width: 768px) {
