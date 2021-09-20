@@ -565,6 +565,25 @@ header .overlay {
   background-color: rgb(178, 220, 221);
 }
 
+/*
+# Yacht Description
+*/
+
+
+#yachtdescription .container-fluid{
+  padding: 30px;
+  background-color: rgb(175, 250, 255);
+}
+
+#yachtdescription p{
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);  
+}
+
+#descriptionTitle h2{
+  color: rgb(59, 59, 59);
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
 
   .nav-item #hrActive{
